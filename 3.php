@@ -28,7 +28,8 @@
     $option2 = 20;
     $option3 = 34;
 
-    $option4 = "Bonjour!";
+    $option4 = "Mabuhay!";
+
 
 
     if ($option2 % 2 === 1) { // this is false
@@ -39,9 +40,22 @@
         echo "Whatever!";
     }
 
+    echo "<br>";
+
         //switch statement
-
-
+    switch ($option4) {
+        case "Bonjour!" :
+            echo "Bonjour!";
+            break;
+        case "Mabuhay!":
+            echo "Mabuhay!";
+            break;
+        case "Hola!";
+            echo "Hola!";
+            break;
+        default:
+            echo "This is the default greeting.";
+    }
 	
 ?>
 
