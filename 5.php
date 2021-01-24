@@ -37,7 +37,7 @@
     // built-in array function
     $beatles = ["John", "Paul", "George", "Ringo"];
 
-    echo "The Beatles has " . sizeof($beatles) . " members";
+    echo "The Beatles has " . sizeof($beatles) . " members.";
 
 ?>
 
