@@ -1,13 +1,11 @@
 <?php
-
 if (isset($_POST['submit'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    echo "Hello, " . $username;
+    echo "Hello, " . $username . ". ";
     echo "Your password is " . $password;
 }
-
 ?>
 
 
@@ -24,12 +22,12 @@ if (isset($_POST['submit'])) {
 
 
 <article class="main-content col-xs-8">
-<!--    Step1: Make a form that submits one value to POST super global-->
+<!-- Step1: Make a form that submits one value to POST super global -->
     <form action="6.php" method="post">
-        <input type="username" placeholder="Enter Username">
-        <input type="password" placeholder="Enter Password">
+        <input type="text" name="username" placeholder="Enter Username">
+        <input type="password" name="password" placeholder="Enter Password">
     <br>
-        <input type="submit" name="Submit">
+        <input type="submit" name="submit">
     </form>
 
 </article><!--MAIN CONTENT-->
