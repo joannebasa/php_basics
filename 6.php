@@ -4,7 +4,7 @@ if (isset($_POST['submit'])) {
     $password = $_POST['password'];
 
     echo "Hello, " . $username . ". ";
-    echo "Your password is " . $password;
+    echo "Your password is saved.";
 }
 ?>
 
