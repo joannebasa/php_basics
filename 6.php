@@ -19,14 +19,18 @@ if (isset($_POST['submit'])) {
 		<?php Navigation();?>
 
 		</aside><!--SIDEBAR-->
-
+    </section>
 
 <article class="main-content col-xs-8">
 <!-- Step1: Make a form that submits one value to POST super global -->
     <form action="6.php" method="post">
-        <input type="text" name="username" placeholder="Enter Username">
-        <input type="password" name="password" placeholder="Enter Password">
-    <br>
+        <label>
+            <input type="text" name="username" placeholder="Enter Username">
+        </label>
+        <label>
+            <input type="password" name="password" placeholder="Enter Password">
+        </label>
+        <br>
         <input type="submit" name="submit">
     </form>
 
